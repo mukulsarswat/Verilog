@@ -11,7 +11,7 @@ The Half Adder does not account for carry-in from previous stages, making it sui
 
 ## Logic Diagram
 
-[View Logic Diagram](./half_adder_logic_diagram.png](https://electronics.stackexchange.com/questions/146824/design-of-a-basic-half-adder))
+[View Logic Diagram](https://electronics.stackexchange.com/questions/146824/design-of-a-basic-half-adder)
 
 ## Truth Table
 
@@ -40,4 +40,5 @@ The Half Adder does not account for carry-in from previous stages, making it sui
 
 - [Wikipedia: Half Adder](https://en.wikipedia.org/wiki/Adder_(electronics)#Half_adder)
 - Digital Design textbooks
+
 
