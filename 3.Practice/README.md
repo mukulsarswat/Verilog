@@ -35,10 +35,16 @@ The Half Adder does not account for carry-in from previous stages, making it sui
 ## Verilog Code
 
 [View Half_Adder.v](./Half_Adder.v)
+[View Half Adder TestBench](./Half_Adder_tb.v)
+
+## Output :
+[View Schematic Diagram](https://photos.app.goo.gl/cEe5mLsmoMqCXvUP8)
+[View Output Waveform](https://photos.app.goo.gl/t1JoBE9dUtKzuLpe9)
 
 ## References
 
 - [Wikipedia: Half Adder](https://en.wikipedia.org/wiki/Adder_(electronics)#Half_adder)
 - Digital Design textbooks
+
 
 
