@@ -1,60 +1,71 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Verilog Projects</title>
-  <style>
-    :root { --accent:#0b6efd; --muted:#6b7280; --bg:#0f172a; --card:#111827; --text:#e6eef8; }
-    body { font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; margin:0; padding:36px; background:linear-gradient(180deg,#04102a 0%, #071433 100%); color:var(--text); }
-    .container { max-width:1000px; margin:0 auto; }
-    header { display:flex; align-items:center; gap:16px; }
-    h1 { margin:0; font-size:28px; }
-    p.lead { color:var(--muted); margin-top:8px; line-height:1.5; max-width:980px; }
-    .card { background: rgba(255,255,255,0.03); padding:18px; border-radius:12px; margin-top:20px; box-shadow: 0 6px 18px rgba(2,6,23,0.6); }
-    .index-list { list-style:none; padding:0; margin:0; display:grid; gap:8px; }
-    .index-list li { padding:10px 12px; border-radius:8px; display:flex; justify-content:space-between; align-items:center; background: rgba(255,255,255,0.01); }
-    .index-list a { color:var(--text); text-decoration:none; font-weight:600; }
-    .index-list a:hover { color:var(--accent); text-decoration:underline; }
-    .meta { color:var(--muted); font-size:13px; }
-    footer { margin-top:28px; color:var(--muted); font-size:13px; }
-    .btn { background:var(--accent); color:white; padding:8px 12px; border-radius:8px; text-decoration:none; }
-    code { background: rgba(255,255,255,0.03); padding:2px 6px; border-radius:6px; font-size:13px; }
-  </style>
-</head>
-<body>
-  <div class="container">
-    <header>
-      <div>
-        <h1>Verilog Projects</h1>
-        <div class="meta">A compact collection of Verilog designs, simulations and example modules</div>
-      </div>
-    </header>
+# Verilog Practice on EDA Playground
 
-    <!-- short definition / description (3-4 lines) -->
-    <div class="card">
-      <p class="lead">
-        Verilog is a hardware description language (HDL) used to model and design digital logic such as processors, controllers, and FPGA systems.
-        It allows designers to describe hardware at behavioral and structural levels, simulate timing and verify functionality.
-        This collection contains small-to-medium Verilog projects with simulation testbenches and README notes for each module.
-      </p>
-    </div>
+This repository contains my practice work for learning and exploring Verilog using [EDA Playground](https://www.edaplayground.com/). Below is an index of the items included, each with a topic and serial number.
 
-    <!-- Project index placeholder (script will inject the list here) -->
-    <div id="project-index" class="card">
-      <h2 style="margin-top:0">📑 Index of Projects</h2>
-      <!-- START_PROJECT_LIST -->
-      <ul class="index-list">
-        <!-- generated entries go here -->
-      </ul>
-      <!-- END_PROJECT_LIST -->
-    </div>
+## Index of Items
 
-    <div class="card" style="margin-top:18px;">
-      <h3 style="margin:0 0 8px 0">🛠 How to run</h3>
-      <ol style="margin:0 0 0 20px; color:var(--muted)">
-        <li>Open the project folder in your preferred Verilog toolchain (Icarus Verilog, ModelSim, Vivado, etc.).</li>
-        <li>Follow the README inside each project folder for compilation and simulation commands.</li>
-        <li>Typical commands (Icarus): <code>iverilog -o out.vvp filename.v</code> then <code>vvp out.vvp</code>.</li>
-      </ol>
-    </div>
+| Sr. No. | Topic                          | Description                          |
+|---------|--------------------------------|--------------------------------------|
+| 1       | Getting Started                | Setting up and using EDA Playground  |
+| 2       | Basic Gates                    | AND, OR, NOT, NAND, NOR, XOR, XNOR   |
+| 3       | Combinational Circuits         | Adders, Subtractors, Multiplexers    |
+| 4       | Sequential Circuits            | Flip-Flops, Latches, Registers       |
+| 5       | Counters                       | Up, Down, and Up-Down Counters       |
+| 6       | FSM (Finite State Machines)    | Design and simulation of FSMs        |
+| 7       | Testbenches                    | Writing basic and advanced testbenches|
+| 8       | Simulation and Debugging       | Using EDA Playground tools           |
+| 9       | Useful Resources               | Links and references                 |
+
+---
+
+## 1. Getting Started
+
+- Introduction to EDA Playground
+- Creating your first Verilog file
+- Running simulations
+
+## 2. Basic Gates
+
+- Implementation of basic gates in Verilog
+- Example codes for AND, OR, NOT, NAND, NOR, XOR, XNOR
+
+## 3. Combinational Circuits
+
+- Half Adder and Full Adder
+- Multiplexers and Demultiplexers
+- Comparators
+
+## 4. Sequential Circuits
+
+- D, T, JK, and SR Flip-Flops
+- Latches and Registers
+
+## 5. Counters
+
+- Design of up, down, and up-down counters
+- Synchronous and asynchronous counters
+
+## 6. FSM (Finite State Machines)
+
+- Introduction to FSM concepts
+- Example Mealy and Moore machine designs
+
+## 7. Testbenches
+
+- Writing simple testbenches
+- Advanced testbench techniques
+
+## 8. Simulation and Debugging
+
+- Using EDA Playground simulation features
+- Debugging tips and tricks
+
+## 9. Useful Resources
+
+- [EDA Playground](https://www.edaplayground.com/)
+- [Verilog Tutorial (GeeksforGeeks)](https://www.geeksforgeeks.org/verilog/)
+- [ASIC World Verilog Examples](https://www.asic-world.com/verilog/index.html)
+
+---
+
+> _Feel free to add more topics or update this README as you progress in your Verilog learning journey!_
