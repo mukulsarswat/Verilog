@@ -44,7 +44,7 @@ This repository contains my practice work for learning and exploring Verilog usi
 - Example code are in 4.Full_Adder here.
 - For more details on Full Adder you can refer to [GFG Link](https://www.geeksforgeeks.org/digital-logic/full-adder-in-digital-logic/)
 
-## 5.[Half_&_Full_Subtractor](./5.Half Subtractor && Full Subtractor)
+## 5.[Half_&_Full_Subtractor](https://github.com/mukulsarswat/Verilog/tree/ae256f9eb31d97699394c55ce9db4f024847cc08/5.Half%20Subtractor%20%26%26%20Full%20Subtractor)
 
 - Implementation of Half and Full Subtractor using AND,OR and XOR gate.
 - Example code are in 5.Half Subtractor && Full Subtractor here.
@@ -59,6 +59,7 @@ This repository contains my practice work for learning and exploring Verilog usi
 ---
 
 > _Feel free to add more topics or update this README as you progress in your Verilog learning journey!_
+
 
 
 
