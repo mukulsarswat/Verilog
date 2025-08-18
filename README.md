@@ -10,7 +10,7 @@ This repository contains my practice work for learning and exploring Verilog usi
 | 1       | Basic Gates                    | AND, OR, NOT, NAND, NOR, XOR, XNOR   |
 | 3       | Half Adder                     | Half adder(AND and XOR gate used     |
 | 4       | Full Adder                     | Full adder(AND,OR and XOR gate used  |
-| 5       | Half & Full Subtractor         | Half adder(AND and XOR gate used     |
+| 5       | Half & Full Subtractor         | Half & Full Subtractor(AND,OR and XOR gate used     |
 
 
 
@@ -59,6 +59,7 @@ This repository contains my practice work for learning and exploring Verilog usi
 ---
 
 > _Feel free to add more topics or update this README as you progress in your Verilog learning journey!_
+
 
 
 
