@@ -17,12 +17,12 @@ This repository contains my practice work for learning and exploring Verilog usi
 
 - Introduction to EDA Playground
 - Creating your first Verilog file
-- Running simulations
-For simulation i used following : <br>
+- Running simulations <br>
+- For simulation i used following : <br>
         - Selected Verilog/System Verilog on Design and TestBench in LANGUAGE & LIBRARIES dropdown. <br>
         - Selected Aldec Riviera Pro 2023.04 which automatically manage other things . <br>
         - Selected EPWave after Run (if you want to  see wavefoerm ). <br>
-
+- You can refer to my account [EDA Account](https://edaplayground.com/playgrounds/user/897650)
 ## 2. Basic Gates
 
 - Implementation of basic gates in Verilog
@@ -39,6 +39,7 @@ For simulation i used following : <br>
 ---
 
 > _Feel free to add more topics or update this README as you progress in your Verilog learning journey!_
+
 
 
 
