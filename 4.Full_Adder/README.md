@@ -1,58 +1,54 @@
+# Full Adder
 
-Full Adder
+A **Full Adder** is a fundamental digital circuit that performs the addition of three single-bit binary numbers: two significant bits and a carry-in from a previous stage. It produces a sum and a carry-out output.
 
-A Full Adder is a fundamental digital circuit that performs the addition of three single-bit binary numbers: two inputs and an incoming carry. It produces a sum and a carry output, making it suitable for multi-bit binary addition when connected in series.
+## Overview
 
-Overview
+- **Inputs:** A, B, Cin (all single-bit binary numbers)
+- **Outputs:** Sum, Cout
 
-Inputs: A, B, Cin (single-bit binary numbers)
+The Full Adder accounts for carry-in from previous stages, making it suitable for multi-bit binary addition by cascading several full adders.
 
-Outputs: Sum, Carry
+## Logic Diagram
 
-The Full Adder accounts for carry-in from previous stages, making it more versatile than a Half Adder and essential for constructing multi-bit adders.
+[View Logic Diagram](https://electronics.stackexchange.com/questions/146825/design-of-a-basic-full-adder)
 
-Logic Diagram
+## Truth Table
 
-View Logic Diagram
+| A | B | Cin | Sum | Cout |
+|---|---|-----|-----|-------|
+| 0 | 0 |  0  |  0  |   0   |
+| 0 | 0 |  1  |  1  |   0   |
+| 0 | 1 |  0  |  1  |   0   |
+| 0 | 1 |  1  |  0  |   1   |
+| 1 | 0 |  0  |  1  |   0   |
+| 1 | 0 |  1  |  0  |   1   |
+| 1 | 1 |  0  |  0  |   1   |
+| 1 | 1 |  1  |  1  |   1   |
 
-Truth Table
-A	B	Cin	Sum	Carry
-0	0	0	0	0
-0	0	1	1	0
-0	1	0	1	0
-0	1	1	0	1
-1	0	0	1	0
-1	0	1	0	1
-1	1	0	0	1
-1	1	1	1	1
-Boolean Expressions
+## Boolean Expressions
 
-Sum = A ⊕ B ⊕ Cin
+- **Sum** = A ⊕ B ⊕ Cin (XOR)
+- **Cout** = (A · B) + (B · Cin) + (A · Cin)
 
-Carry = (A · B) + (B · Cin) + (A · Cin)
+## Applications
 
-Applications
+- Used in arithmetic logic units (ALUs)
+- Essential for multi-bit binary addition (ripple-carry adders, etc.)
+- Building block for more complex arithmetic circuits
 
-Used in arithmetic logic units (ALUs)
+## Verilog Code
 
-Essential building block for Ripple-Carry Adders and other multi-bit adders
-
-Used in processors and digital systems for binary arithmetic
-
-Verilog Code
-
-View Full_Adder.v
+[View Full_Adder.v](./Full_Adder.v)
 <br>
-View Full Adder TestBench
+[View Full Adder TestBench](./Full_adder_tb.v)
 
-Output :
-
-View Schematic Diagram
+## Output :
+[View Schematic Diagram](https://images.app.goo.gl/nio6ecBkcp78feiF9)
 <br>
-View Output Waveform
+[View Output Waveform](https://photos.app.goo.gl/rS5VYyqAEVH22kot7)
 
-References
+## References
 
-Wikipedia: Full Adder
-
-Digital Design textbooks
+- [Wikipedia: Full Adder](https://en.wikipedia.org/wiki/Adder_(electronics)#Full_adder)
+- Digital Design textbooks (https://ia800803.us.archive.org/12/items/DigitalLogicAndComputerDesignByM.MorrisMano2ndEdition/Digital%20Logic%20And%20Computer%20Design%20By%20M.%20Morris%20Mano%20%282nd%20Edition%29.pdf)
