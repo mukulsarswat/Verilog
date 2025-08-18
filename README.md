@@ -9,6 +9,9 @@ This repository contains my practice work for learning and exploring Verilog usi
 | 0       | Getting Started                | Setting up and using EDA Playground  |
 | 1       | Basic Gates                    | AND, OR, NOT, NAND, NOR, XOR, XNOR   |
 | 2       | Half Adder                     | Half adder(AND and XOR gate used     |
+| 2       | Half Adder                     | Half adder(AND and XOR gate used     |
+| 2       | Half Adder                     | Half adder(AND and XOR gate used     |
+| 2       | Half Adder                     | Half adder(AND and XOR gate used     |
 
 
 ---
@@ -39,6 +42,7 @@ This repository contains my practice work for learning and exploring Verilog usi
 ---
 
 > _Feel free to add more topics or update this README as you progress in your Verilog learning journey!_
+
 
 
 
