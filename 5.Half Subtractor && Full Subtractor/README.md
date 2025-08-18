@@ -107,7 +107,7 @@ The Full Subtractor can be used in multi-bit binary subtraction by cascading sev
 
 [View Schematic Diagram](https://www.hackatronic.com/half-subtractor-and-full-subtractor-circuits-truth-table-equation/)
 <br>
-[View Output Waveform](https://photos.app.goo.gl/kmF4A73qKpD5Q8uPA)
+[View Output Waveform](https://photos.app.goo.gl/EPvnt4n41wCjJq9RA)
 
 ### References
 
