@@ -1,6 +1,6 @@
 module Half_Subtractor(a,b,diff,borrow);
   input a,b;
   output diff,borrow;
-  assign diff=A^B;
+  assign diff=a^b;
   assign borrow=(~a)&b;
 endmodule
