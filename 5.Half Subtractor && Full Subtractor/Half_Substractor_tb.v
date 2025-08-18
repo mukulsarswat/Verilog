@@ -1,12 +1,12 @@
-module Half_Substractor_tb();
+module Half_Subtractor_tb();
   reg a,b;
   wire diff,borrow;
 
-  Half_Substractor uut(.a(a),.b(b),.diff(diff),.borrow(borrow));
+  Half_Subtractor uut(.a(a),.b(b),.diff(diff),.borrow(borrow));
   initial 
     begin
        $dumpfile("wave.vcd"); 
-      $dumpvars(0,Half_Substractor_tb);  
+      $dumpvars(0,Half_Subtractor_tb);  
     end
   initial 
 	begin
