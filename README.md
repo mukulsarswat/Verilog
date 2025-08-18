@@ -1,6 +1,6 @@
 # Verilog Practice on EDA Playground
 
-This repository contains my practice work for learning and exploring Verilog using [EDA Playground](https://www.edaplayground.com/). Below is an index of the items included, each with a topic and serial number.
+This repository contains my practice work for learning and exploring Verilog using [EDA Playground](https://www.edaplayground.com/) and [HDLBits](https://hdlbits.01xz.net/wiki/Main_Page). Below is an index of the items included, each with a topic and serial number.
 
 ## Index of Items
 
@@ -25,7 +25,7 @@ This repository contains my practice work for learning and exploring Verilog usi
         - Selected Verilog/System Verilog on Design and TestBench in LANGUAGE & LIBRARIES dropdown. <br>
         - Selected Aldec Riviera Pro 2023.04 which automatically manage other things . <br>
         - Selected EPWave after Run (if you want to  see wavefoerm ). <br>
-- You can refer to my account [EDA Account](https://edaplayground.com/playgrounds/user/897650)
+- You can refer to my account [EDA Profile](https://edaplayground.com/playgrounds/user/897650)  and [HDLBits Profile](https://hdlbits.01xz.net/wiki/Special:VlgStats/5270771120A5FEFC)
 ## 2. [Basic Gates](./1.Logic_Gates/)
 
 - Implementation of basic gates in Verilog
@@ -59,6 +59,7 @@ This repository contains my practice work for learning and exploring Verilog usi
 ---
 
 > _Feel free to add more topics or update this README as you progress in your Verilog learning journey!_
+
 
 
 
