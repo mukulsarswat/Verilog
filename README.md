@@ -26,7 +26,7 @@ This repository contains my practice work for learning and exploring Verilog usi
         - Selected Aldec Riviera Pro 2023.04 which automatically manage other things . <br>
         - Selected EPWave after Run (if you want to  see wavefoerm ). <br>
 - You can refer to my account [EDA Account](https://edaplayground.com/playgrounds/user/897650)
-## 2. [Basic Gates](./Logic_Gates)
+## 2. [Basic Gates](./1.Logic_Gates/)
 
 - Implementation of basic gates in Verilog
 - Example codes for [AND](https://en.wikipedia.org/wiki/AND_gate), [OR](https://en.wikipedia.org/wiki/OR_gate), NOT, NAND, NOR, XOR, XNOR,
@@ -42,6 +42,7 @@ This repository contains my practice work for learning and exploring Verilog usi
 ---
 
 > _Feel free to add more topics or update this README as you progress in your Verilog learning journey!_
+
 
 
 
