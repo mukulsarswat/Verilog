@@ -38,10 +38,9 @@ A **Ripple Carry Adder** is a combinational circuit that adds two binary numbers
 
 ## 🧱 Project Structure   and 
 
-### 1. [Full Adder](4.Full_Adder)
-### 2. [Design](./n_Bit_Ripple_Carry_Adder.v) 
+### 1. [Full Adder](https://github.com/mukulsarswat/Verilog/tree/ad3de533bc07190df026fcbb2744c9cbed7bf84b/4.Full_Adder)
 ### 3.[TestBench](./n_Bit_Ripple_Carry_Adder_tb.v)
-### 4. Output WaveForm  [LINK](https://photos.app.goo.gl/uDvv2JXnFGBzk59Z7)
+### 4. [Output WaveForm](https://photos.app.goo.gl/uDvv2JXnFGBzk59Z7)
 
 ---
 
