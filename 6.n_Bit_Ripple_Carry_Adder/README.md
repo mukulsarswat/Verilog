@@ -91,7 +91,7 @@ module n_bit_ripple_carry_adder_tb();
   end
 endmodule
 ```
-### 4.Output_WaveForm    ![Waveform Screenshot](https://photos.app.goo.gl/uDvv2JXnFGBzk59Z7)
+### 4.Output_WaveForm  <br>  ![Waveform Screenshot](https://photos.app.goo.gl/uDvv2JXnFGBzk59Z7)
 
 ---
 
