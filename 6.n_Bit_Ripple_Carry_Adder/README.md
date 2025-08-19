@@ -168,6 +168,3 @@ SOFTWARE.
 
 Happy Simulating! 💻🔧
 ```
-
-
-Let me know if you'd like this turned into a GitHub repo structure or want help adding waveform screenshots or expanding to subtractors or ALUs.
