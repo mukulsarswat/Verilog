@@ -1,6 +1,6 @@
 ---
 
-# 🔢 Learn 4-Bit Ripple Carry Adder in Verilog
+#  Learn 4-Bit Ripple Carry Adder in Verilog
 
 Welcome to **Learn 4-Bit Ripple Carry Adder in Verilog**!  
 This repository is designed to help you understand how to build a ripple carry adder using Verilog HDL, simulate it on EDA Playground, and grasp the fundamentals of modular digital design. Whether you're just starting with hardware description languages or brushing up on combinational logic, this guide and the accompanying code will help you master the concept of ripple carry addition.
@@ -91,7 +91,7 @@ module n_bit_ripple_carry_adder_tb();
   end
 endmodule
 ```
-### 4. Ouput_WaveForm    [LINK](https://photos.app.goo.gl/uDvv2JXnFGBzk59Z7)
+### 4.Ouput_WaveForm    [LINK](https://photos.app.goo.gl/uDvv2JXnFGBzk59Z7)
 
 ---
 
