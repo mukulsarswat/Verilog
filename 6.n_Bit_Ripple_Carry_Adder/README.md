@@ -36,7 +36,7 @@ A **Ripple Carry Adder** is a combinational circuit that adds two binary numbers
 
 ---
 
-## 🧱 Project Structure
+## 🧱 Project Structure  [Design](./n_Bit_Ripple_Carry_Adder.v)  and [TestBench](./n_Bit_Ripple_Carry_Adder_tb.v)
 
 ### 1. Full Adder Module
 
