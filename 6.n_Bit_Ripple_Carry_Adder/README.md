@@ -15,7 +15,7 @@ This repository is designed to help you understand how to build a ripple carry a
   - [Full Adder Module](#1-full-adder-module)
   - [4-Bit Ripple Carry Adder](#2-4-bit-ripple-carry-adder)
   - [Testbench](#3-testbench)
-  - [Ouput WaveForm](#4-Ouput_WaveForm)
+  - [Ouput WaveForm](#4-Output_WaveForm)
 - [Key Learnings](#key-learnings)
 - [Things to Check on EDA Playground](#things-to-check-on-eda-playground)
 - [Sample Simulation Output](#sample-simulation-output)
