@@ -59,9 +59,9 @@ Each full adder computes the sum and carry for its respective bit, and the carry
 
 ## 📈 Sample Simulation Output
 
-Time: 10 ns | a = 1011 | b = 0101 | cin = 0 | sum = 0000 | cout = 1
-Time: 20 ns | a = 1000 | b = 1011 | cin = 1 | sum = 0010 | cout = 1
-Time: 30 ns | a = 0111 | b = 1101 | cin = 1 | sum = 0101 | cout = 1
+-Time: 10 ns | a = 1011 | b = 0101 | cin = 0 | sum = 0000 | cout = 1
+-Time: 20 ns | a = 1000 | b = 1011 | cin = 1 | sum = 0010 | cout = 1
+-Time: 30 ns | a = 0111 | b = 1101 | cin = 1 | sum = 0101 | cout = 1
 
 ---
 
