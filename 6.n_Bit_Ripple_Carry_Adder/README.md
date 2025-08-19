@@ -1,5 +1,3 @@
-Absolutely, Mukul! Here's a README in the same style, but tailored for your **4-bit Ripple Carry Adder** project using Verilog on EDA Playground. It’s clean, structured, and beginner-friendly—just like your STL guide.
-
 ---
 
 # 🔢 Learn 4-Bit Ripple Carry Adder in Verilog
