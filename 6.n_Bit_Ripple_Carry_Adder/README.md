@@ -11,7 +11,7 @@ This repository is designed to help you understand how to build a ripple carry a
 
 - [Introduction](#introduction)
 - [What is a Ripple Carry Adder?](#what-is-a-ripple-carry-adder)
-- [Project Structure](#project-structure)
+- [Project Structure](#project-structure) 
 - [Key Learnings](#key-learnings)
 - [Things to Check on EDA Playground](#things-to-check-on-eda-playground)
 - [Sample Simulation Output](#sample-simulation-output)
