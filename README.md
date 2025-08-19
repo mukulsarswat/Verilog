@@ -11,6 +11,7 @@ This repository contains my practice work for learning and exploring Verilog usi
 | 3       | Half Adder                     | Half adder(AND and XOR gate used     |
 | 4       | Full Adder                     | Full adder(AND,OR and XOR gate used  |
 | 5       | Half & Full Subtractor         | Half & Full Subtractor(AND,OR and XOR gate used     |
+| 6       | n bit Ripple carry Adder       | Used Full Adder and Learn Module Instantiation In Verilog    |
 
 
 
@@ -50,7 +51,11 @@ This repository contains my practice work for learning and exploring Verilog usi
 - Example code are in 5.Half Subtractor && Full Subtractor here.
 - For more details on Full Subtractor you can refer to [GFG Link](https://www.geeksforgeeks.org/digital-logic/full-subtractor-in-digital-logic/)   and for Half Subtractor [GFG Link](https://www.geeksforgeeks.org/digital-logic/half-subtractor-in-digital-logic/)
 
-## 6.[Ripple Carry Adder](./6.n_Bit_Ripple_Carry_Adder)
+## 6.[n bit Ripple Carry Adder](./6.n_Bit_Ripple_Carry_Adder)
+- Implementation of 4-bit Ripple Carry adder using 4-Full Adder.
+- <strong>New Learning</strong> How to Module Instantiation In Verilog and how we need to tackle things in case of EDA PLAYGROUND where get know about the $dumpvars. 
+- For more info on Ripple Carry Adder <i>[click here](https://www.sciencedirect.com/topics/computer-science/ripple-carry-adder)</i> and for Module Instantiation  <i>[click here](https://circuitfever.com/module-instantiation-in-verilog)</i>
+
 
 ##  Useful Resources
 
@@ -61,6 +66,7 @@ This repository contains my practice work for learning and exploring Verilog usi
 ---
 
 > _Feel free to add more topics or update this README as you progress in your Verilog learning journey!_
+
 
 
 
