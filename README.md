@@ -50,6 +50,8 @@ This repository contains my practice work for learning and exploring Verilog usi
 - Example code are in 5.Half Subtractor && Full Subtractor here.
 - For more details on Full Subtractor you can refer to [GFG Link](https://www.geeksforgeeks.org/digital-logic/full-subtractor-in-digital-logic/)   and for Half Subtractor [GFG Link](https://www.geeksforgeeks.org/digital-logic/half-subtractor-in-digital-logic/)
 
+## 6.[Ripple Carry Adder](./6.n_Bit_Ripple_Carry_Adder)
+
 ##  Useful Resources
 
 - [EDA Playground](https://www.edaplayground.com/)
@@ -59,6 +61,7 @@ This repository contains my practice work for learning and exploring Verilog usi
 ---
 
 > _Feel free to add more topics or update this README as you progress in your Verilog learning journey!_
+
 
 
 
