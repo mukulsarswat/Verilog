@@ -107,7 +107,7 @@ endmodule
 
 ## 🧪 Things to Check on EDA Playground
 
-- ✅ Select **Icarus Verilog** or **Synopsys VCS** as the simulator.
+- ✅ Select **Aldec Riviera Pro 2023.04** or **Synopsys VCS** as the simulator.
 - ✅ Include all modules in the left panel: Full Adder, Ripple Carry Adder, and Testbench.
 - ✅ Set `n_bit_ripple_carry_adder_tb` as the **top-level module**.
 - ✅ Use correct **wire declarations** (`wire [2:0] w;` instead of `wire W[2:0];`).
