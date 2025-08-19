@@ -36,60 +36,11 @@ A **Ripple Carry Adder** is a combinational circuit that adds two binary numbers
 
 ---
 
-## 🧱 Project Structure  [Design](./n_Bit_Ripple_Carry_Adder.v)  and [TestBench](./n_Bit_Ripple_Carry_Adder_tb.v)
+## 🧱 Project Structure   and 
 
-### 1. Full Adder Module
-
-```verilog
-module Full_Adder(a, b, c, s, co);
-  input a, b, c;
-  output s, co;
-  assign s = a ^ b ^ c;
-  assign co = (a & b) | (c & (a ^ b));
-endmodule
-```
-
-### 2. 4-Bit Ripple Carry Adder
-
-```verilog
-module n_bit_ripple_carry_adder(a, b, cin, sum, cout);
-  input [3:0] a, b;
-  input cin;
-  output [3:0] sum;
-  output cout;
-  wire [2:0] w;
-
-  Full_Adder fa1(a[0], b[0], cin, sum[0], w[0]);
-  Full_Adder fa2(a[1], b[1], w[0], sum[1], w[1]);
-  Full_Adder fa3(a[2], b[2], w[1], sum[2], w[2]);
-  Full_Adder fa4(a[3], b[3], w[2], sum[3], cout);
-endmodule
-```
-
-### 3. Testbench
-
-```verilog
-module n_bit_ripple_carry_adder_tb();
-  reg [3:0] a, b;
-  reg cin;
-  wire [3:0] sum;
-  wire cout;
-
-  n_bit_ripple_carry_adder uut(a, b, cin, sum, cout);
-
-  initial begin
-    $dumpfile("wave.vcd");
-    $dumpvars(4);
-  end
-
-  initial begin
-    a = 4'b1011; b = 4'b0101; cin = 0; #10;
-    a = 4'b1000; b = 4'b1011; cin = 1; #10;
-    a = 4'b0111; b = 4'b1101; cin = 1; #10;
-    $finish;
-  end
-endmodule
-```
+### 1. [Full Adder]
+### 2. [Design](./n_Bit_Ripple_Carry_Adder.v) 
+### 3.[TestBench](./n_Bit_Ripple_Carry_Adder_tb.v)
 ### 4. Output WaveForm  [LINK](https://photos.app.goo.gl/uDvv2JXnFGBzk59Z7)
 
 ---
