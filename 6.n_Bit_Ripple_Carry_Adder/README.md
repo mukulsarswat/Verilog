@@ -33,7 +33,7 @@ A **Ripple Carry Adder** is a combinational circuit that adds two binary numbers
 
 ---
 
-## 🧱 Project Structure   and 
+## 🧱 Project Structure
 
 ### 1. [Full Adder](https://github.com/mukulsarswat/Verilog/tree/ad3de533bc07190df026fcbb2744c9cbed7bf84b/4.Full_Adder)
 ### 2. [4-bit Ripple Carry Adder](./n_Bit_Ripple_Carry_Adder.v)
