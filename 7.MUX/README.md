@@ -114,5 +114,3 @@ SOFTWARE.
 ---
 
 Happy Simulating! 🎛️💡
-
-Would you like me to help you write the Verilog modules and testbench next?
