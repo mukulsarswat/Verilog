@@ -12,6 +12,7 @@ This repository contains my practice work for learning and exploring Verilog usi
 | 4       | Full Adder                     | Full adder(AND,OR and XOR gate used  |
 | 5       | Half & Full Subtractor         | Half & Full Subtractor(AND,OR and XOR gate used     |
 | 6       | n bit Ripple carry Adder       | Used Full Adder and Learn Module Instantiation In Verilog    |
+| 7       | 2:1,4:1 and 8:1 MUX      | How to use 2:1 for 4:1 and 2:1 4:1 together for 8:1    |
 
 
 
@@ -56,6 +57,11 @@ This repository contains my practice work for learning and exploring Verilog usi
 - <strong>New Learning</strong> How to Module Instantiation In Verilog and how we need to tackle things in case of EDA PLAYGROUND where get know about the $dumpvars. 
 - For more info on Ripple Carry Adder <i>[click here](https://www.sciencedirect.com/topics/computer-science/ripple-carry-adder)</i> and for Module Instantiation  <i>[click here](https://circuitfever.com/module-instantiation-in-verilog)</i>
 
+## 7.[Multiplexers](./7.MUX)
+- Implementation of 2:1 ,4:1 using 2:1 and without using 2:1 ,8:1 using 4:1 and 2:1.
+- <strong>New Learning</strong> How to Module Instantiation In Verilog and how we need to tackle things in case of EDA PLAYGROUND where get know about the $dumpvars. I used it as $dumpvars(1) for 2:1 and 4:1 and for 8:1.
+- For more info on Multiplexer <i>[click here](https://www.electronics-tutorials.ws/combination/comb_2.html)</i> 
+
 
 ##  Useful Resources
 
@@ -66,6 +72,7 @@ This repository contains my practice work for learning and exploring Verilog usi
 ---
 
 > _Feel free to add more topics or update this README as you progress in your Verilog learning journey!_
+
 
 
 
