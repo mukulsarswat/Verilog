@@ -36,11 +36,10 @@ Each design demonstrates how binary select lines control data flow.
 ---
 
 ## 🧱 Project Structure
-1. [2:1 Multiplexer](./mux_2to1.v)  
-2. [4:1 Multiplexer](./mux_4to1.v)  
-3. [8:1 Multiplexer](./mux_8to1.v)  
-4. [TestBench](./mux_tb.v)  
-5. [Output WaveForm](https://photos.app.goo.gl/your_mux_waveform_link)  
+1. [2:1 Multiplexer](./7.1.MUX_2_X_1)  
+2. [4:1 Multiplexer](./7.2.MUX_4_X_1)  
+3. [8:1 Multiplexer](./7.3.MUX_8_X_1)  
+4. Output WaveForm : [2:1](https://photos.app.goo.gl/u8tivkZTeoZY5TaD6) [4:1](https://photos.app.goo.gl/u8tivkZTeoZY5TaD6) [8:1](https://photos.app.goo.gl/u8tivkZTeoZY5TaD6)
 
 ---
 
@@ -85,32 +84,3 @@ Each design demonstrates how binary select lines control data flow.
 
 ## 🤝 Contributing
 Contributions are welcome! Feel free to add new MUX variants (e.g., 16:1), improve test coverage, or optimize logic using behavioral modeling.
-
----
-
-## 📄 License
-MIT License  
-
-Copyright (c) 2025 Mukul Sharma  
-
-Permission is hereby granted, free of charge, to any person obtaining a copy  
-of this software and associated documentation files (the "Software"), to deal  
-in the Software without restriction, including without limitation the rights  
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell  
-copies of the Software, and to permit persons to whom the Software is  
-furnished to do so, subject to the following conditions:  
-
-The above copyright notice and this permission notice shall be included in all  
-copies or substantial portions of the Software.  
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR  
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,  
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE  
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER  
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,  
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE  
-SOFTWARE.  
-
----
-
-Happy Simulating! 🎛️💡
