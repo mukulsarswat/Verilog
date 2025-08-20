@@ -1,4 +1,4 @@
-// IMPLEMENT 4:1 using 2:1 MUX. 
+// IMPLEMENT 4:1 using 2:1 MUX 
 module two_x_one(d0,d1,sel,y);
 	input d0,d1,sel;
 	output y;
