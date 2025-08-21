@@ -62,6 +62,20 @@ This repository contains my practice work for learning and exploring Verilog usi
 - <strong>New Learning</strong> How to Module Instantiation In Verilog and how we need to tackle things in case of EDA PLAYGROUND where get know about the $dumpvars. I used it as $dumpvars(1) for 2:1 and 4:1 and for 8:1.
 - For more info on Multiplexer <i>[click here](https://www.electronics-tutorials.ws/combination/comb_2.html)</i> 
 
+## 8.[Code Converters](./8.Code_Converter)
+- Implementation of **Gray to Binary Converter** using simplified Boolean logic:
+  - B2 = G2  
+  - B1 = G1 ⊕ G2  
+  - B0 = G0 ⊕ G1 ⊕ G2  
+- <strong>New Learning</strong> Explored how to derive conversion logic using Karnaugh Maps and Boolean simplification. Practiced **module instantiation** in Verilog for clean hierarchy and reusability.
+- Tackled simulation setup in **EDA PLAYGROUND**, especially for waveform visibility:
+  - Used `$dumpvars(1)` for compact modules and `$dumpvars(0)` for top-level testbenches.
+  - Ensured `$dumpfile("gray_to_binary.vcd")` was declared before simulation begins.
+- For more info on Gray Code and Binary Conversion <i>[click here](https://www.tutorialspoint.com/digital-electronics/gray-code-to-binary-converter.htm)</i>
+
+---
+
+Would you like me to help you build a matching README or testbench for this module next? I can also suggest how to visually annotate waveforms for beginner clarity.
 
 ##  Useful Resources
 
@@ -72,6 +86,7 @@ This repository contains my practice work for learning and exploring Verilog usi
 ---
 
 > _Feel free to add more topics or update this README as you progress in your Verilog learning journey!_
+
 
 
 
