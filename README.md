@@ -13,6 +13,7 @@ This repository contains my practice work for learning and exploring Verilog usi
 | 5       | Half & Full Subtractor         | Half & Full Subtractor(AND,OR and XOR gate used     |
 | 6       | n bit Ripple carry Adder       | Used Full Adder and Learn Module Instantiation In Verilog    |
 | 7       | 2:1,4:1 and 8:1 MUX      | How to use 2:1 for 4:1 and 2:1 4:1 together for 8:1    |
+| 8       | Code Converter     | Binary to Gray , Gray to Binary    |
 
 
 
@@ -86,6 +87,7 @@ Would you like me to help you build a matching README or testbench for this modu
 ---
 
 > _Feel free to add more topics or update this README as you progress in your Verilog learning journey!_
+
 
 
 
