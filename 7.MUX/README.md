@@ -39,7 +39,7 @@ Each design demonstrates how binary select lines control data flow.
 1. [2:1 Multiplexer](./7.1.MUX_2_X_1)  
 2. [4:1 Multiplexer](./7.2.MUX_4_X_1)  
 3. [8:1 Multiplexer](./7.3.MUX_8_X_1)  
-4. Output WaveForm : [2:1](https://photos.app.goo.gl/u8tivkZTeoZY5TaD6) [4:1](https://photos.app.goo.gl/7g34xYDNxjhwZPPa6) [8:1]
+4. Output WaveForm : [2:1](https://photos.app.goo.gl/u8tivkZTeoZY5TaD6) [4:1](https://photos.app.goo.gl/7g34xYDNxjhwZPPa6) [8:1](https://photos.app.goo.gl/JAH11dSzn1WE7Yv47)
 
 ---
 
