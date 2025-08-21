@@ -29,8 +29,11 @@ This project demonstrates the implementation of fundamental **code converters** 
 - **Testbenches** for simulation and verification.
 - **EDA Playground / ModelSim / Icarus Verilog** for waveform analysis.
 ---
-
-
+## Output Waveform 
+- **[Gray to Binary](https://photos.app.goo.gl/pswxvtW8YegCj4WP9)** .
+- **[Binary to Gray](https://photos.app.goo.gl/U2EraZx4CUyFshRB9)** .
+  
+---
 ## 🤝 Contribution
 
 Feel free to fork, enhance, or add new converters (e.g., Binary to BCD, Octal to Binary). Pull requests are welcome!
