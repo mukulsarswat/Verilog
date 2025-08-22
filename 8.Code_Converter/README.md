@@ -32,6 +32,8 @@ This project demonstrates the implementation of fundamental **code converters** 
 ## Output Waveform 
 - **[Gray to Binary](https://photos.app.goo.gl/pswxvtW8YegCj4WP9)** .
 - **[Binary to Gray](https://photos.app.goo.gl/U2EraZx4CUyFshRB9)** .
+- **[Binary to BCD](https://photos.app.goo.gl/V6LiVGPogx3vcrrb9)** .
+- **[BCD to Binary](https://photos.app.goo.gl/CsWa4LoSLNoBXJZQA)** .
   
 ---
 ## 🤝 Contribution
