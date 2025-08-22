@@ -68,6 +68,10 @@ This repository contains my practice work for learning and exploring Verilog usi
   - B2 = G2  
   - B1 = G1 ⊕ G2  
   - B0 = G0 ⊕ G1 ⊕ G2  
+- Implementation of **Binary to Gray Converter** using simplified Boolean logic:
+  - G2 = B2  
+  - G1 = B1 ⊕ B2  
+  - G0 = B0 ⊕ B1 
 - <strong>New Learning</strong> Explored how to derive conversion logic using Karnaugh Maps and Boolean simplification. Practiced **module instantiation** in Verilog for clean hierarchy and reusability.
 - Tackled simulation setup in **EDA PLAYGROUND**, especially for waveform visibility:
   - Used `$dumpvars(1)` for compact modules and `$dumpvars(0)` for top-level testbenches.
@@ -87,6 +91,7 @@ Would you like me to help you build a matching README or testbench for this modu
 ---
 
 > _Feel free to add more topics or update this README as you progress in your Verilog learning journey!_
+
 
 
 
