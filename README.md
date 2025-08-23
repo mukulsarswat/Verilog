@@ -14,6 +14,8 @@ This repository contains my practice work for learning and exploring Verilog usi
 | 6       | n bit Ripple carry Adder       | Used Full Adder and Learn Module Instantiation In Verilog    |
 | 7       | 2:1,4:1 and 8:1 MUX      | How to use 2:1 for 4:1 and 2:1 4:1 together for 8:1    |
 | 8       | Code Converter     | Binary to Gray , Gray to Binary    |
+| 9       | D-Flip FLop     | Using Gate and Behavioral modelling   |
+
 
 
 
@@ -78,10 +80,13 @@ This repository contains my practice work for learning and exploring Verilog usi
   - Ensured `$dumpfile("gray_to_binary.vcd")` was declared before simulation begins.
 - For more info on Gray Code and Binary Conversion <i>[click here](https://www.tutorialspoint.com/digital-electronics/gray-code-to-binary-converter.htm)</i>
 
+## 9.[D Flip Flop](./9.D_FlipFlop)
+- A D flip-flop stores the input value (`D`) on a clock edge and holds it stable until the next trigger.  
+- It’s edge-sensitive, meaning it reacts only on rising or falling clock transitions, making it ideal for synchronized data storage.  
+- Widely used in registers, counters, and memory elements, it forms the backbone of sequential digital circuits.
+- For more info on Modelling in Verilog <i>[click here](https://blog.eduplusnow.com/blog/verilog-hdl-exploring-different-modelling-styles/)</i> 
+
 ---
-
-Would you like me to help you build a matching README or testbench for this module next? I can also suggest how to visually annotate waveforms for beginner clarity.
-
 ##  Useful Resources
 
 - [EDA Playground](https://www.edaplayground.com/)
@@ -91,6 +96,7 @@ Would you like me to help you build a matching README or testbench for this modu
 ---
 
 > _Feel free to add more topics or update this README as you progress in your Verilog learning journey!_
+
 
 
 
