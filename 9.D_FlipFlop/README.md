@@ -42,11 +42,20 @@ This ensures stable output transitions only on the falling edge of the clock.
 
 ---
 
-## 🧪 Simulation Tips
+## 📊 Comparison: Gate-Level vs Behavioral Modeling
 
-- Use waveform viewers to compare gate-level vs behavioral timing.
-- Validate edge sensitivity by toggling `clk` and `rst`.
-- Add testbenches to explore input-output behavior under various conditions.
+| Feature                        | Gate-Level Modeling                                      | Behavioral Modeling                                      |
+|-------------------------------|-----------------------------------------------------------|-----------------------------------------------------------|
+| **Design Style**              | Uses basic logic gates (`nand`, `not`)                   | Uses `always` block with procedural assignments           |
+| **Abstraction Level**         | Low-level (close to hardware)                            | High-level (describes behavior, not structure)            |
+| **Code Complexity**           | More verbose and intricate                               | Concise and readable                                      |
+| **Simulation Speed**          | Slower due to detailed gate interactions                 | Faster due to abstract execution                         |
+| **Clock Sensitivity**         | Achieved via master-slave and clock inversion            | Directly specified using `negedge clk`                   |
+| **Reset Handling**            | Requires manual gate logic for reset                     | Easily handled with `if-else` inside `always` block       |
+| **Educational Value**         | Great for understanding internal latch behavior          | Ideal for learning control flow and edge-triggered logic |
+| **Use Case**                  | Hardware-level design and verification                   | RTL design and functional simulation                     |
+| **Testbench Requirements**    | Requires careful waveform analysis                       | Easier to validate with simple input sequences            |
+
 
 ---
 
