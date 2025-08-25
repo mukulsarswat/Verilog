@@ -1,6 +1,4 @@
-Absolutely, Mukul! Here's a polished, beginner-friendly README file that explains the concept of a **T Flip-Flop** in Verilog, including waveform dumping for simulation. It’s structured to be recruiter-ready and educational—ideal for your GitHub or documentation portfolio.
 
----
 
 # 🔁 T Flip-Flop in Verilog with Waveform Dumping
 
@@ -60,15 +58,6 @@ This allows you to open the `.vcd` file in a waveform viewer like **GTKWave** to
 
 ---
 
-## 📷 Sample Waveform (Conceptual)
-
-```
-clk:   ──▁▁──▁▁──▁▁──▁▁──▁▁──▁▁──▁▁
-T:     ──0──1──1──0──1──1──0──1──0
-Q:     ──0──0──1──1──1──0──0──1──1
-```
-
----
 
 ## 🚀 Extensions
 
@@ -82,7 +71,3 @@ Want to go further? Try adding:
 ## 🤝 Contributing
 
 Feel free to fork, improve, or extend this project. Clear documentation and beginner-friendly enhancements are always welcome!
-
----
-
-Let me know if you'd like a README template for JK, D, or SR flip-flops next—or want to bundle this into a sequential logic series!
