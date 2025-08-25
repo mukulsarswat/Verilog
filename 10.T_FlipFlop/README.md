@@ -39,7 +39,7 @@ A **T Flip-Flop** is a sequential logic circuit that toggles its output (`Q`) on
   - Else if `T` is high → `Q` toggles
   - Else → `Q` holds its value
 
-### 📈 Waveform Dumping
+### 📈 [Waveform Dumping](https://photos.app.goo.gl/CVvrcERCNccsfP797)
 To visualize signal transitions:
 ```verilog
 $dumpfile("t_ff_waveform.vcd");   // Creates a VCD file
