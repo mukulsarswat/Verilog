@@ -29,7 +29,7 @@ JK_FlipFlop/
 ├── Jk_flip_flop_tb.v    # Testbench with waveform dump
 └── README.md            # Project documentation
 ```
-### 📈 [Waveform Highlights](https://photos.app.goo.gl/zKqcnYyuZYJ2JGtk7)    
+### 📈 Waveform Highlights : [Output Waveform](https://photos.app.goo.gl/zKqcnYyuZYJ2JGtk7)    
 - Clock transitions every 10ns  
 - Reset initializes Q to 0  
 - Toggle behavior clearly visible when J=K=1  
