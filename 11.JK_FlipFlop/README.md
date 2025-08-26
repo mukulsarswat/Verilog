@@ -21,12 +21,12 @@ This project implements a JK flip-flop using Verilog HDL. The flip-flop responds
 | 1 | 0 | Set (Q = 1)         |
 | 1 | 1 | Toggle              |
 
-### 📂 File Structure
+### 📂 File Structure [Design](./Jk_flip_flop.v)  and [TestBench](./Jk_flip_flop_tb.v).
 
 ```bash
 JK_FlipFlop/
 ├── Jk_flip_flop.v       # JK flip-flop module
-├── Jk_flip_flop.v    # Testbench with waveform dump
+├── Jk_flip_flop_tb.v    # Testbench with waveform dump
 └── README.md            # Project documentation
 ```
 ### 📈 [Waveform Highlights](https://photos.app.goo.gl/zKqcnYyuZYJ2JGtk7)    
