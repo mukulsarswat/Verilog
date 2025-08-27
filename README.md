@@ -15,6 +15,9 @@ This repository contains my practice work for learning and exploring Verilog usi
 | 7       | 2:1,4:1 and 8:1 MUX      | How to use 2:1 for 4:1 and 2:1 4:1 together for 8:1    |
 | 8       | Code Converter     | Binary to Gray , Gray to Binary    |
 | 9       | D-Flip FLop     | Using Gate and Behavioral modelling   |
+| 10       | T-Flip FLop     | Using Gate and Behavioral modelling   |
+| 11      | JK-Flip FLop     | Using Gate and Behavioral modelling   |
+| 12      | SR-Flip FLop     | Using Gate and Behavioral modelling   |
 
 
 
@@ -85,6 +88,35 @@ This repository contains my practice work for learning and exploring Verilog usi
 - It’s edge-sensitive, meaning it reacts only on rising or falling clock transitions, making it ideal for synchronized data storage.  
 - Widely used in registers, counters, and memory elements, it forms the backbone of sequential digital circuits.
 - For more info on Modelling in Verilog <i>[click here](https://blog.eduplusnow.com/blog/verilog-hdl-exploring-different-modelling-styles/)</i> 
+Here you go, Mukul—matching the style and tone of your D flip-flop entry, here are polished entries for **T**, **SR**, and **JK** flip-flops. Each one is recruiter-friendly and educationally sharp:
+
+---
+
+## 10. [T Flip Flop](./10.T_FlipFlop)
+- A T (Toggle) flip-flop changes its output state on every clock edge when the input `T` is high (`1`).  
+- When `T = 0`, it holds its previous state, making it ideal for frequency division and binary counting.  
+- It’s derived from the JK flip-flop by tying both inputs together (`J = K = T`).  
+- Commonly used in ripple counters and clock dividers for sequential timing control.  
+- For more info on Modelling in Verilog <i>[click here](https://blog.eduplusnow.com/blog/verilog-hdl-exploring-different-modelling-styles/)</i>
+
+---
+
+## 11. [JK Flip Flop](./11.JK_FlipFlop)
+- A JK flip-flop is a versatile sequential element that resolves the invalid state of the SR flip-flop.  
+- When `J = 1, K = 1`, it toggles the output; otherwise, it behaves like an SR flip-flop.  
+- It’s edge-triggered and highly flexible, making it suitable for counters, shift registers, and control units.  
+- Often used in synchronous systems where controlled toggling and state transitions are required.  
+- For more info on Modelling in Verilog <i>[click here](https://blog.eduplusnow.com/blog/verilog-hdl-exploring-different-modelling-styles/)</i>
+
+---
+
+## 12. [SR Flip Flop](./12.SR_FlipFlop)
+- An SR (Set-Reset) flip-flop sets or resets its output based on the inputs `S` and `R` during a clock edge.  
+- `S = 1, R = 0` sets the output; `S = 0, R = 1` resets it; `S = R = 0` holds the state; `S = R = 1` is invalid.  
+- It’s one of the simplest memory elements, useful for basic control logic and latching mechanisms.  
+- Often used in debouncing circuits and simple state machines.  
+- For more info on Modelling in Verilog <i>[click here](https://blog.eduplusnow.com/blog/verilog-hdl-exploring-different-modelling-styles/)</i>
+
 
 ---
 ##  Useful Resources
@@ -96,6 +128,7 @@ This repository contains my practice work for learning and exploring Verilog usi
 ---
 
 > _Feel free to add more topics or update this README as you progress in your Verilog learning journey!_
+
 
 
 
