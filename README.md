@@ -130,7 +130,18 @@ Absolutely, Mukul! Here are entries **13** and **14** in the exact format and to
 - For more info on Modelling in Verilog <i>[click here](https://www.geeksforgeeks.org/digital-logic/seven-segment-displays/)</i>
 
 ---
+Absolutely, Mukul! Here are entries **13** and **14** in the exact format and tone you used for the SR flip-flop:
 
+---
+
+## 14. [MOD 10 Counter](./14.MOD_10_Counter)
+- A MOD-10 counter cycles through 10 states (`0000` to `1001`) before resetting to `0000`, effectively counting from `0` to `9`.  
+- It uses synchronous logic and flip-flops to increment on each clock edge, resetting after the 10th count.  
+- Widely used in digital clocks, frequency dividers, and decimal counting systems.  
+- A great example of sequential logic and state-based design in Verilog.  
+- For more info on Modelling in Verilog <i>[click here](https://www.chipverify.com/verilog/verilog-modn-counter)</i>
+
+---
 
 ##  Useful Resources
 
@@ -141,6 +152,7 @@ Absolutely, Mukul! Here are entries **13** and **14** in the exact format and to
 ---
 
 > _Feel free to add more topics or update this README as you progress in your Verilog learning journey!_
+
 
 
 
