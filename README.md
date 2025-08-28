@@ -18,6 +18,8 @@ This repository contains my practice work for learning and exploring Verilog usi
 | 10       | T-Flip FLop     | Using Gate and Behavioral modelling   |
 | 11      | JK-Flip FLop     | Using Gate and Behavioral modelling   |
 | 12      | SR-Flip FLop     | Using Gate and Behavioral modelling   |
+| 13      |7 Segment Display    | Using Gate and Behavioral modelling   |
+| 14      |MOD 10 Counter    | Using Gate and Behavioral modelling   |
 
 
 
@@ -116,9 +118,20 @@ Here you go, Mukul—matching the style and tone of your D flip-flop entry, here
 - It’s one of the simplest memory elements, useful for basic control logic and latching mechanisms.  
 - Often used in debouncing circuits and simple state machines.  
 - For more info on Modelling in Verilog <i>[click here](https://blog.eduplusnow.com/blog/verilog-hdl-exploring-different-modelling-styles/)</i>
-
+Absolutely, Mukul! Here are entries **13** and **14** in the exact format and tone you used for the SR flip-flop:
 
 ---
+
+## 13. [7 Segment Display](./13.7_Segment_Display)
+- A 7-segment display decoder converts a 4-bit hexadecimal input into a 7-bit output that lights up segments `a–g` to represent digits `0–F`.  
+- It maps binary values to visual patterns, enabling human-readable output on embedded systems and digital devices.  
+- Commonly used in digital clocks, calculators, counters, and embedded interfaces.  
+- Ideal for beginners learning combinational logic and display interfacing.  
+- For more info on Modelling in Verilog <i>[click here](https://www.geeksforgeeks.org/digital-logic/seven-segment-displays/)</i>
+
+---
+
+
 ##  Useful Resources
 
 - [EDA Playground](https://www.edaplayground.com/)
@@ -128,6 +141,7 @@ Here you go, Mukul—matching the style and tone of your D flip-flop entry, here
 ---
 
 > _Feel free to add more topics or update this README as you progress in your Verilog learning journey!_
+
 
 
 
