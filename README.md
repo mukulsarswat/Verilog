@@ -20,6 +20,9 @@ This repository contains my practice work for learning and exploring Verilog usi
 | 12      | SR-Flip FLop     | Using Gate and Behavioral modelling   |
 | 13      |7 Segment Display    | Using Gate and Behavioral modelling   |
 | 14      |MOD 10 Counter    | Using Gate and Behavioral modelling   |
+| 15      |8_bit_ALU   | Using Gate and Behavioral modelling   |
+| 16      |Seq_Detector 1011   | Using Gate and Behavioral modelling   |
+| 17      |Seq_Detector 1101 | Using Gate and Behavioral modelling   |
 
 
 
@@ -142,6 +145,36 @@ Absolutely, Mukul! Here are entries **13** and **14** in the exact format and to
 - For more info on Modelling in Verilog <i>[click here](https://www.chipverify.com/verilog/verilog-modn-counter)</i>
 
 ---
+Absolutely, Mukul! Here's the continuation of your textbook-style module list, formatted just like your MOD-10 Counter entry. Each one is concise, educational, and recruiter-friendly—perfect for your GitHub series or documentation index.
+
+---
+
+## 15. [8-bit ALU](./15.8_bit_ALU)
+- An 8-bit ALU performs arithmetic and logic operations on two 8-bit inputs, including addition, subtraction, bitwise logic, shifts, and comparison.  
+- Designed using combinational logic with a 3-bit control signal to select the operation.  
+- Includes a `Zero` flag output for condition checking, useful in control flow and branching.  
+- Ideal for showcasing modular design, opcode mapping, and waveform-based verification.  
+- For more on ALU design in Verilog <i>[click here](https://www.researchgate.net/publication/376075796_Design_and_implementation_of_an_8-bit_ALU_based_on_verilog_HDL)</i>
+
+---
+
+## 16. [Sequence Detector – 1011](./16.Seq_Detector_1011)
+- A Mealy-style FSM that detects the binary sequence `1011` in a serial input stream.  
+- Uses 5 states to track progress and asserts output immediately upon detection.  
+- Demonstrates state transitions, pattern recognition, and non-overlapping detection.  
+- Useful in control systems, protocol monitoring, and digital communication.  
+- For FSM modeling techniques in Verilog <i>[click here](https://www.chipverify.com/verilog/verilog-fsm-design)</i>
+
+---
+
+## 17. [Sequence Detector – 1101](./17.Seq_Detector_1101)
+- A Mealy FSM designed to detect the sequence `1101` using 5 distinct states.  
+- Output is asserted as soon as the final bit of the sequence is received.  
+- Highlights sequential logic, state encoding, and real-time pattern detection.  
+- Commonly used in serial data analyzers, bitstream filters, and control logic.  
+- For FSM design examples in Verilog <i>[click here](https://www.chipverify.com/verilog/verilog-fsm-sequence-detector)</i>
+
+---
 
 ##  Useful Resources
 
@@ -152,6 +185,7 @@ Absolutely, Mukul! Here are entries **13** and **14** in the exact format and to
 ---
 
 > _Feel free to add more topics or update this README as you progress in your Verilog learning journey!_
+
 
 
 
