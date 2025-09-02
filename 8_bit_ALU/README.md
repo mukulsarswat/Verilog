@@ -21,20 +21,20 @@ This ALU takes two 8-bit inputs (`A` and `B`) and a 3-bit control signal (`ALU_S
 
 | File            | Description                          |
 |-----------------|--------------------------------------|
-| `alu_8bit.v`     | ALU module with 8 operations         |
-| `tb_alu_8bit.v`  | Testbench with waveform dumping      |
+| `8_bit_alu.v`     | ALU module with 8 operations         |
+| `8_bit_alu_tb.v`  | Testbench with waveform dumping      |
 | `README.md`      | Documentation and usage instructions |
 
 ---
 
 ## 🔗 Quick Access
 
-- ▶️ **[View & Simulate on EDA Playground](https://edaplayground.com/x/abc123)**  
-  *(Replace with your actual EDA Playground link)*
+- ▶️ **[View & Simulate on EDA Playground](https://edaplayground.com/x/fZBb)**  
 
-- 📄 **[ALU Design Code](https://edaplayground.com/x/abc123#code=alu_8bit.v)**  
-- 🧪 **[Testbench Code](https://edaplayground.com/x/abc123#code=tb_alu_8bit.v)**  
-- 📈 **[Waveform Output Viewer](https://edaplayground.com/x/abc123#waveform)**  
+
+- 📄 **[ALU Design Code](./8_bit_alu.v)**  
+- 🧪 **[Testbench Code](./8_bit_alu_tb.v)**  
+- 📈 **[Waveform Output Viewer](https://photos.app.goo.gl/BmoseXLpSXreo9rg8)**  
 
 ---
 
@@ -61,21 +61,3 @@ This ALU takes two 8-bit inputs (`A` and `B`) and a 3-bit control signal (`ALU_S
 | `111`   | Set-on-less-than  | `A < B ? 1 : 0`     |
 
 ---
-
-## 📘 Educational Highlights
-
-- ✅ Modular Verilog design
-- ✅ Beginner-friendly opcode mapping
-- ✅ Waveform-based verification
-- ✅ Portfolio-ready documentation
-
----
-
-## 👨‍💻 Author
-
-**Mukul Sarswat**  
-B.Tech ECE @ IIIT Nagpur  
-Focused on digital design, simulation clarity, and educational documentation.
-
----
-
