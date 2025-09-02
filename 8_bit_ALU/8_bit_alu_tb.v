@@ -1,5 +1,5 @@
 `timescale 1ns / 1ps
-module tb_alu_8bit;
+module tb_alu_8bit();
 
 reg [7:0] A, B;
 reg [2:0] ALU_Sel;
