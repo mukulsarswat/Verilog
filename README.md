@@ -14,15 +14,15 @@ This repository contains my practice work for learning and exploring Verilog usi
 | 6       | n bit Ripple carry Adder       | Used Full Adder and Learn Module Instantiation In Verilog    |
 | 7       | 2:1,4:1 and 8:1 MUX      | How to use 2:1 for 4:1 and 2:1 4:1 together for 8:1    |
 | 8       | Code Converter     | Binary to Gray , Gray to Binary    |
-| 9       | D-Flip FLop     | Using Gate and Behavioral modelling   |
-| 10       | T-Flip FLop     | Using Gate and Behavioral modelling   |
-| 11      | JK-Flip FLop     | Using Gate and Behavioral modelling   |
-| 12      | SR-Flip FLop     | Using Gate and Behavioral modelling   |
-| 13      |7 Segment Display    | Using Gate and Behavioral modelling   |
+| 9       | D-Flip FLop     | Sequential CKT Using Gate and Behavioral modelling   |
+| 10       | T-Flip FLop     | Sequential CKT Using Gate and Behavioral modelling   |
+| 11      | JK-Flip FLop     | Sequential CKT Using Gate and Behavioral modelling   |
+| 12      | SR-Flip FLop     | Sequential CKT Using Gate and Behavioral modelling   |
+| 13      |7 Segment Display    |  `a–g` to represent digits `0–F`   |
 | 14      |MOD 10 Counter    | Using Gate and Behavioral modelling   |
-| 15      |8_bit_ALU   | Using Gate and Behavioral modelling   |
-| 16      |Seq_Detector 1011   | Using Gate and Behavioral modelling   |
-| 17      |Seq_Detector 1101 | Using Gate and Behavioral modelling   |
+| 15      |8_bit_ALU   | Addition, subtraction, bitwise logic, shifts, and comparison   |
+| 16      |Seq_Detector 1011   | FSM Using Gate and Behavioral modelling   |
+| 17      |Seq_Detector 1101 | FSM Using Gate and Behavioral modelling   |
 
 
 
@@ -93,8 +93,6 @@ This repository contains my practice work for learning and exploring Verilog usi
 - It’s edge-sensitive, meaning it reacts only on rising or falling clock transitions, making it ideal for synchronized data storage.  
 - Widely used in registers, counters, and memory elements, it forms the backbone of sequential digital circuits.
 - For more info on Modelling in Verilog <i>[click here](https://blog.eduplusnow.com/blog/verilog-hdl-exploring-different-modelling-styles/)</i> 
-Here you go, Mukul—matching the style and tone of your D flip-flop entry, here are polished entries for **T**, **SR**, and **JK** flip-flops. Each one is recruiter-friendly and educationally sharp:
-
 ---
 
 ## 10. [T Flip Flop](./10.T_FlipFlop)
@@ -121,7 +119,6 @@ Here you go, Mukul—matching the style and tone of your D flip-flop entry, here
 - It’s one of the simplest memory elements, useful for basic control logic and latching mechanisms.  
 - Often used in debouncing circuits and simple state machines.  
 - For more info on Modelling in Verilog <i>[click here](https://blog.eduplusnow.com/blog/verilog-hdl-exploring-different-modelling-styles/)</i>
-Absolutely, Mukul! Here are entries **13** and **14** in the exact format and tone you used for the SR flip-flop:
 
 ---
 
@@ -133,9 +130,6 @@ Absolutely, Mukul! Here are entries **13** and **14** in the exact format and to
 - For more info on Modelling in Verilog <i>[click here](https://www.geeksforgeeks.org/digital-logic/seven-segment-displays/)</i>
 
 ---
-Absolutely, Mukul! Here are entries **13** and **14** in the exact format and tone you used for the SR flip-flop:
-
----
 
 ## 14. [MOD 10 Counter](./14.MOD_10_Counter)
 - A MOD-10 counter cycles through 10 states (`0000` to `1001`) before resetting to `0000`, effectively counting from `0` to `9`.  
@@ -145,9 +139,7 @@ Absolutely, Mukul! Here are entries **13** and **14** in the exact format and to
 - For more info on Modelling in Verilog <i>[click here](https://www.chipverify.com/verilog/verilog-modn-counter)</i>
 
 ---
-Absolutely, Mukul! Here's the continuation of your textbook-style module list, formatted just like your MOD-10 Counter entry. Each one is concise, educational, and recruiter-friendly—perfect for your GitHub series or documentation index.
 
----
 
 ## 15. [8-bit ALU](./15.8_bit_ALU)
 - An 8-bit ALU performs arithmetic and logic operations on two 8-bit inputs, including addition, subtraction, bitwise logic, shifts, and comparison.  
@@ -185,6 +177,7 @@ Absolutely, Mukul! Here's the continuation of your textbook-style module list, f
 ---
 
 > _Feel free to add more topics or update this README as you progress in your Verilog learning journey!_
+
 
 
 
